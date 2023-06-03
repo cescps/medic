@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Medico';
-  src: url('medico.ttf') format('truetype');
+  src: url('/Medico.ttf') format('truetype');
 }
 
 :root {
