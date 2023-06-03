@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Medico';
+  src: url('medico.ttf') format('truetype');
+}
+
 :root {
   --primary-black-color:#000000;
   --secondary-gray-color:#F5F5F5;
@@ -74,6 +79,7 @@ margin-bottom: 0.9rem;
 }
 
 .hero-p-text {
+    font-family: 'Medico', sans-serif;
     color:#8B8B8B;
     font-weight:400;
     font-size:1.25rem;
