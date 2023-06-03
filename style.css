@@ -1,0 +1,116 @@
+:root {
+  --primary-black-color:#000000;
+  --secondary-gray-color:#F5F5F5;
+  --primary-white-color:#FFFFFF;
+  --secondary-white-color:#FAFAFA;
+  --primary-yellow-color:#A8FF35;
+  --secondary-yellow-color:#87D322;
+}
+  
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Effra,sans-serif;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+body {
+    background-color:var(--primary-black-color);
+				max-width:100%
+				margin:  auto;
+}
+
+
+a {
+    text-decoration:none;
+}
+
+
+
+.hero {
+	max-width:1400px;	
+	margin: 0 auto;
+	overflow:hidden;
+	max-width:1200px;
+        text-align: center;
+  
+   /* Apply margins only on PC screens */
+    @media (min-width: 768px) {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+}
+
+.hero-banner-text {
+   background: linear-gradient(to right, #000000, #FFFFFF 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 900;
+font-size: 4.5rem;
+line-height: 112%;
+margin-bottom: 0.9rem;
+}
+
+.hero-banner-subtext {
+   background: linear-gradient(to right, #000000, #FFFFFF 50%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 900;
+line-height: 112%;
+margin-bottom: 0.9rem;
+	
+	
+	/* Apply size only on PC screens */
+    @media (min-width: 768px) {
+       font-size: 2.1rem;
+    }
+    
+    /* Apply size only on mobile screens */
+    @media (max-width: 767px) {
+        font-size: 1rem;
+
+    }
+}
+
+.hero-p-text {
+    color:#8B8B8B;
+    font-weight:400;
+    font-size:1.25rem;
+    line-height:150%;
+    margin-top:2.25rem;
+    text-align: center;
+	
+	 /* Apply margin only on PC screens */
+    @media (min-width: 768px) {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+    
+    /* Apply margin only on mobile screens */
+    @media (max-width: 767px) {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+.hero-banner-text:nth-of-type(1) {
+    margin-top:8rem;
+}
+
+.hero-button {
+margin-top: 2.25rem;
+margin-bottom: 10rem;
+padding: 1.25rem 2.25rem;
+background-color: #f1c233; 
+color: var(--primary-black-color);
+font-size: 1.25rem;
+font-weight: 700;
+border: none;
+border-radius: 40px;
+}
+
+.hero-button:hover {
+background-color: #d3a526; 
+box-shadow: 2px 4px 4px 0px #00000040;
+}
